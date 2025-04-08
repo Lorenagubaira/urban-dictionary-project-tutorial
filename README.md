@@ -14,7 +14,7 @@ In this project, you are going to build a terminal based (CLI) dictionary.
 2. Watch this 15 min video to [understand pipenv](https://www.youtube.com/watch?v=6Qmnh5C4Pmo), the python package manager.
 3. Watch this 10 min video on [what are API Keys and credentials](https://www.youtube.com/watch?v=InoAIgBZIEA).
 
-<onlyfor saas="false" withBanner="false">
+<how-to-start>
 
 ## 🌱 How to start this project
 
@@ -44,7 +44,7 @@ $ pipenv run python app.py
 
 💡 Important: Remember to update the project's `remote` URL to your repository using `git remote set-url origin <your new url>`, and then save your code to your new repository using `add`, `commit`, and `push`.
 
-</onlyfor>
+</how-to-start>
 
 ### 📝 Features that the application must have
 
