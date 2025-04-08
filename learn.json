@@ -1,7 +1,13 @@
 {
 	"slug" : "urban-dictionary-cli",
-	"title" : "Create a Dictionary Terminal APP",
-	"description": "Conect to the UrbanDictionary.com API to create an app that can be used from the terminal to retrieve meanings of words",
+	"title" : {
+		"us": "Create a Dictionary Terminal APP",
+		"es": "Crea una aplicación de terminal de diccionario"
+	},
+	"description" : {
+		"us":"Build a terminal-based dictionary using the Urban Dictionary API. Users input a word, receive a definition in the terminal, and it gets saved in a JSON file. Practice working with APIs, command-line input, HTTP requests, and optional features like caching and multiple word search.",
+		"es":"Crea un diccionario basado en terminal usando la API de Urban Dictionary. El usuario ingresa una palabra, recibe la definición en la terminal y esta se guarda en un archivo JSON. Practica el uso de APIs, entrada por línea de comandos, solicitudes HTTP y funciones opcionales como caché y búsqueda múltiple."
+    },
 	"preview": "https://github.com/breatheco-de/urban-dictionary-project-tutorial/blob/master/preview.gif?raw=true",
 	"status": "published",
 	"duration" : 4,
@@ -11,5 +17,8 @@
 	"technologies": ["python", "terminal", "command line", "http", "http.request", "apis"],
 	"talents": [],
     "autoPlay": false,
-    "projectType": "project"
+    "projectType": "project",
+	"telemetry": {
+	    	"batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=182"
+	  }
 }
